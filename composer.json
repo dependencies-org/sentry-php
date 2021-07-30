@@ -1,5 +1,5 @@
 {
-    "name": "sentry/sentry",
+    "name": "dependencies-org/sentry",
     "type": "library",
     "description": "A PHP SDK for Sentry (http://sentry.io)",
     "keywords": [
