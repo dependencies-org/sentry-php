@@ -164,7 +164,7 @@ final class Event implements \JsonSerializable
         $this->userContext = new UserContext();
         $this->extraContext = new Context();
         $this->tagsContext = new TagsContext();
-        $this->sdkVersion = PrettyVersions::getVersion('sentry/sentry')->getPrettyVersion();
+        $this->sdkVersion = PrettyVersions::getVersion('dependencies-org/sentry')->getPrettyVersion();
     }
 
     /**
